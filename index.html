@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div id="main">
+            <img id="image" src="image.jpg"/>
+            <div id="buttons">
+                <input type="file" id="fileInput" class="hidden" onchange='GetImage()'>
+                <label id="label" for="fileInput" >Upload Image </label>
+                <div id="colorButton" onclick="PickColor()" >Pick Color</div>
+            </div>
+            
+            <div id="list"></div>
+        </div>
+       
+        <script src="script.js"></script>
+        
+    </body>
+</html>
